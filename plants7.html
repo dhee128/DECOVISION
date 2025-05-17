@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plants Ideas</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: linear-gradient(135deg, #f8e8ff, #ffe6f1);
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            color: #6c757d;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff85a1;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            border-radius: 0 0 30px 30px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            text-shadow: 2px 2px #ffb3c6;
+        }
+        .ideas-container {
+            margin: 2rem auto;
+            max-width: 1200px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            justify-content: center;
+        }
+        .idea-card {
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 300px;
+            text-align: center;
+            transition: transform 0.3s ease;
+            padding: 1rem;
+        }
+        .idea-card:hover {
+            transform: translateY(-10px);
+        }
+        .idea-card img {
+            width: 100%;
+            border-radius: 15px 15px 0 0;
+            height: 200px;
+            object-fit: cover;
+        }
+        .idea-card h3 {
+            font-size: 1.5rem;
+            color: #d63384;
+            margin: 1rem 0;
+        }
+        .idea-card p {
+            font-size: 1rem;
+            color: #6c757d;
+            margin: 0.5rem 0;
+        }
+        .idea-card button {
+            background-color: #ff85a1;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-top: 1rem;
+        }
+        .idea-card button:hover {
+            background-color: #d63384;
+        }
+        .back-to-room8 {
+            margin-top: 2rem;
+            text-align: center; /* Center the button */
+        }
+        .back-to-room8 button {
+            background-color: #ff85a1;
+            color: white;
+            padding: 0.5rem 2rem;
+            border-radius: 25px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .back-to-room8 button:hover {
+            background-color: #ff6f91;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Plants Ideas</h1>
+    </header>
+    <main>
+        <div class="ideas-container">
+            <!-- Sleek Sofa Cards -->
+            <div class="idea-card">
+                <img src="https://i.pinimg.com/736x/65/01/62/650162909e6346b0ce170a3454b83658.jpg" alt="Sleek Sofa">
+                <h3>Fiddle Leaf Fig</h3>
+                <p>The Fiddle Leaf Fig is a popular choice for living rooms due to its large, glossy leaves and dramatic appearance. </p>
+            </div>
+            <div class="idea-card">
+                <img src="https://i.pinimg.com/736x/96/0d/69/960d69ab5f61fa11592d738861316dc3.jpg" alt="Sleek Sofa">
+                <h3>Snake Plant </h3>
+                <p>Snake plants are low-maintenance and can thrive in low light, making them ideal for areas with limited natural sunlight. </p>
+            </div>
+            <div class="idea-card">
+                <img src="https://i.pinimg.com/736x/f6/a1/54/f6a154adb38e086c5e9d502793cba2ff.jpg" alt="Sleek Sofa">
+                <h3>Peace Lily </h3>
+                <p>Peace Lilies are known for their elegant white blooms and air-purifying properties. They do well in indirect light and can be placed on a side table, shelf, or in a decorative pot. </p>
+            </div>
+            <div class="idea-card">
+                <img src="https://i.pinimg.com/736x/0b/9e/9b/0b9e9b3fd3cd8ee3a95c6a38493a6020.jpg" alt="Sleek Sofa">
+                <h3>Pothos</h3>
+                <p>Pothos is a versatile and easy-to-care-for plant that can be hung in decorative planters or allowed to trail down from shelves.  </p>
+            </div>
+            <div class="idea-card">
+                <img src="https://i.pinimg.com/736x/ae/e1/21/aee121177d83c6d0bd1b74540fb1e0a6.jpg" alt="Sleek Sofa">
+                <h3>Spider Plant </h3>
+                <p>Spider plants are perfect for adding a bit of texture and greenery to your living room. Their long, arching leaves and small "babies" that hang from the plant make them visually interesting.  </p>
+            </div>
+       
+            <div class="idea-card">
+                <img src="https://i.pinimg.com/736x/ec/d7/ec/ecd7ece7d2678798bc61140b5e02d5d6.jpg" alt="Sleek Sofa">
+                <h3>  Rubber Plant </h3>
+                <p>The Rubber Plant is another large-leafed plant that adds a touch of elegance to the living room. With its deep green, glossy leaves, it can be placed in a decorative pot to enhance the room's aesthetic.</p>
+            </div>
+        </div>
+    </main>
+    <div class="back-to-room8">
+        <button onclick="window.location.href='room8.html'">Back to Room</button>
+    </div>
+</body>
+</html>

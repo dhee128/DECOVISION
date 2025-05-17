@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture Ideas</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: linear-gradient(135deg, #f8e8ff, #ffe6f1);
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            color: #6c757d;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff85a1;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            border-radius: 0 0 30px 30px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            text-shadow: 2px 2px #ffb3c6;
+        }
+        .ideas-container {
+            margin: 2rem auto;
+            max-width: 1200px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            justify-content: center;
+        }
+        .idea-card {
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 300px;
+            text-align: center;
+            transition: transform 0.3s ease;
+            padding: 1rem;
+        }
+        .idea-card:hover {
+            transform: translateY(-10px);
+        }
+        .idea-card img {
+            width: 100%;
+            border-radius: 15px 15px 0 0;
+            height: 200px;
+            object-fit: cover;
+        }
+        .idea-card h3 {
+            font-size: 1.5rem;
+            color: #d63384;
+            margin: 1rem 0;
+        }
+        .idea-card p {
+            font-size: 1rem;
+            color: #6c757d;
+            margin: 0.5rem 0;
+        }
+        .idea-card button {
+            background-color: #ff85a1;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-top: 1rem;
+        }
+        .idea-card button:hover {
+            background-color: #d63384;
+        }
+        .back-to-room1 {
+            margin-top: 2rem;
+            text-align: center; /* Center the button */
+        }
+        .back-to-room1 button {
+            background-color: #ff85a1;
+            color: white;
+            padding: 0.5rem 2rem;
+            border-radius: 25px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .back-to-room1 button:hover {
+            background-color: #ff6f91;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Furniture Ideas</h1>
+    </header>
+    <main>
+        <div class="ideas-container">
+            <!-- Sleek Sofa Cards -->
+            <div class="idea-card">
+                <img src="https://i.pinimg.com/736x/55/a4/bc/55a4bc9355c265e07d6e2c999e0c42ba.jpg" alt="Sleek Sofa">
+                <h3>Modern Sectional Sofa</h3>
+                <p>A sleek, L-shaped sofa with neutral upholstery and clean lines.
+                    Includes hidden storage compartments or an optional chaise for lounging.</p>
+            </div>
+            <div class="idea-card">
+                <img src="https://i.pinimg.com/736x/89/27/76/8927764f22bcc32534604823a63a3e93.jpg" alt="Sleek Sofa">
+                <h3>Mid-Century Coffee Table</h3>
+                <p>A wooden coffee table with tapered legs and a smooth finish.
+                    Features open shelving or drawers for additional storage.</p>
+            </div>
+            <div class="idea-card">
+                <img src="https://i.pinimg.com/736x/91/72/b4/9172b442005ab60bbbd4bb4171a512b9.jpg" alt="Sleek Sofa">
+                <h3>Accent Armchair</h3>
+                <p>A cozy armchair with a bold fabric pattern or vibrant color.
+                    Adds a focal point to the room while offering extra seating.</p>
+            </div>
+            <div class="idea-card">
+                <img src="https://i.pinimg.com/736x/8e/18/5b/8e185b5d333a30099ef0d6721bded862.jpg" alt="Sleek Sofa">
+                <h3>Multi-Functional TV Stand</h3>
+                <p>A stylish stand with a mix of open shelves and closed cabinets.
+                    Perfect for organizing electronics, books, and decor items.</p>
+            </div>
+            <div class="idea-card">
+                <img src="https://i.pinimg.com/736x/27/e0/57/27e057ee2df8ed129abd403cae38e498.jpg" alt="Sleek Sofa">
+                <h3>Ottoman with Storage</h3>
+                <p>A plush ottoman that doubles as a storage unit for blankets or magazines.
+                    Can also serve as a footrest or additional seating.</p>
+            </div>
+       
+            <div class="idea-card">
+                <img src="https://i.pinimg.com/736x/ee/c7/ac/eec7acb6158441ac311e66abe238164e.jpg" alt="Sleek Sofa">
+                <h3> Bookshelves/Storage Units</h3>
+                <p>Bookshelves or storage units help keep your living room organized and functional. They can also double as decorative pieces by displaying books, plants, or artwork. Open shelving is great for a modern look, while closed storage units can help hide clutter.</p>
+            </div>
+        </div>
+    </main>
+    <div class="back-to-room1">
+        <button onclick="window.location.href='room1.html'">Back to Room</button>
+    </div>
+</body>
+</html>

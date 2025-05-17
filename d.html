@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DecoVision</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(135deg, #ffe6f1, #fef2ff); /* Soft pink and lavender gradient */
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            color: #d63384;
+        }
+        header h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            text-shadow: 2px 2px #ffb3c6; /* Subtle shadow for extra cuteness */
+        }
+        /* Navigation Bar */
+        nav {
+            background-color: #ff85a1; /* Sweet pastel pink */
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 0 0 20px 20px; /* Rounded bottom corners */
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .left-section {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+        }
+
+        .left-section .about-us {
+            font-size: 1rem;
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            background-color: #ff6f91;
+            border-radius: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        .left-section .about-us:hover {
+            background-color: #ffd1dc;
+        }
+
+        .left-section .query-box {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .left-section .query-box input {
+            padding: 0.5rem;
+            border: none;
+            border-radius: 20px;
+            outline: none;
+            font-size: 0.9rem;
+            width: 200px;
+        }
+
+        .left-section .query-box button {
+            padding: 0.5rem 1rem;
+            background-color: #ff6f91;
+            border: none;
+            color: white;
+            font-size: 0.9rem;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .left-section .query-box button:hover {
+            background-color: #ffd1dc;
+        }
+
+        nav .right-section ul {
+            list-style: none;
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        nav .right-section ul li {
+            display: inline;
+        }
+
+        nav .right-section ul li a {
+            text-decoration: none;
+            font-size: 1rem;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav .right-section ul li a:hover {
+            background-color: #ffd1dc;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <!-- Left Section -->
+        <div class="left-section">
+            <a href="#about" class="about-us">About Us</a>
+            <div class="query-box">
+                <input type="text" placeholder="Ask a query...">
+                <button>Submit</button>
+            </div>
+        </div>
+
+        <!-- Right Section -->
+        <div class="right-section">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#product">Product</a></li>
+                <li><a href="#room">Room</a></li>
+                <li><a href="#decor">Decors and Accessories</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header>
+        <h1>Welcome to DecoVision</h1>
+    </header>
+</body>
+</html>

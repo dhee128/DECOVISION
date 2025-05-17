@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balcony Color Palettes - DecoVision</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background-color: #f0f4f7;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff85a1;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            border-radius: 0 0 30px 30px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .palette-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            padding: 2rem;
+        }
+        .palette-card {
+            background-color: #f8f9fa;
+            border-radius: 15px;
+            width: 350px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            padding: 20px;
+            transition: transform 0.3s ease;
+        }
+        .palette-card:hover {
+            transform: scale(1.05);
+        }
+        .palette-title {
+            font-size: 1.8rem;
+            color: #df28c1;
+            margin-bottom: 1rem;
+        }
+        .colors {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            margin-bottom: 1rem;
+        }
+        .color-swatch {
+            height: 50px;
+            border-radius: 10px;
+        }
+        .back-to-room8 {
+            margin-top: 2rem;
+            text-align: center;
+        }
+        .back-to-room8 button {
+            background-color: #ff85a1;
+            color: white;
+            padding: 0.5rem 2rem;
+            border-radius: 25px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .back-to-room8 button:hover {
+            background-color: #ff6f91;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Balcony Color Palettes</h1>
+    </header>
+    <main>
+        <div class="palette-container">
+            <!-- Nature-Inspired Greens -->
+            <div class="palette-card">
+                <h2 class="palette-title">Nature-Inspired Greens</h2>
+                <div class="colors">
+                    <div class="color-swatch" style="background-color: #a8d5ba;"></div>
+                    <div class="color-swatch" style="background-color: #91c8a3;"></div>
+                    <div class="color-swatch" style="background-color: #7eb68b;"></div>
+                    <div class="color-swatch" style="background-color: #5fa574;"></div>
+                    <div class="color-swatch" style="background-color: #b8e2c8;"></div>
+                    <div class="color-swatch" style="background-color: #98d4b3;"></div>
+                    <div class="color-swatch" style="background-color: #72b38d;"></div>
+                    <div class="color-swatch" style="background-color: #4d9a75;"></div>
+                </div>
+            </div>
+            <!-- Sunset Hues -->
+            <div class="palette-card">
+                <h2 class="palette-title">Sunset Hues</h2>
+                <div class="colors">
+                    <div class="color-swatch" style="background-color: #f9c5b3;"></div>
+                    <div class="color-swatch" style="background-color: #f7a490;"></div>
+                    <div class="color-swatch" style="background-color: #f48577;"></div>
+                    <div class="color-swatch" style="background-color: #f06d5e;"></div>
+                    <div class="color-swatch" style="background-color: #fbd2c6;"></div>
+                    <div class="color-swatch" style="background-color: #f9b3a3;"></div>
+                    <div class="color-swatch" style="background-color: #f69581;"></div>
+                    <div class="color-swatch" style="background-color: #f27668;"></div>
+                </div>
+            </div>
+            <!-- Ocean Blues -->
+            <div class="palette-card">
+                <h2 class="palette-title">Ocean Blues</h2>
+                <div class="colors">
+                    <div class="color-swatch" style="background-color: #a0d9f9;"></div>
+                    <div class="color-swatch" style="background-color: #87c8f1;"></div>
+                    <div class="color-swatch" style="background-color: #6eb6e8;"></div>
+                    <div class="color-swatch" style="background-color: #58a6df;"></div>
+                    <div class="color-swatch" style="background-color: #c2e5fb;"></div>
+                    <div class="color-swatch" style="background-color: #a8d7f6;"></div>
+                    <div class="color-swatch" style="background-color: #7dc4ec;"></div>
+                    <div class="color-swatch" style="background-color: #4fa8db;"></div>
+                </div>
+            </div>
+            <!-- Earthy Tones -->
+            <div class="palette-card">
+                <h2 class="palette-title">Earthy Tones</h2>
+                <div class="colors">
+                    <div class="color-swatch" style="background-color: #b8a398;"></div>
+                    <div class="color-swatch" style="background-color: #a48b7e;"></div>
+                    <div class="color-swatch" style="background-color: #8f7468;"></div>
+                    <div class="color-swatch" style="background-color: #7b5d53;"></div>
+                    <div class="color-swatch" style="background-color: #d4c4ba;"></div>
+                    <div class="color-swatch" style="background-color: #c2b0a6;"></div>
+                    <div class="color-swatch" style="background-color: #a89181;"></div>
+                    <div class="color-swatch" style="background-color: #8b7367;"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="back-to-room8">
+        <button onclick="window.location.href='room8.html'">Back to Room</button>
+    </div>
+</body>
+</html>

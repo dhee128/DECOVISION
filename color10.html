@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entertainment Room Palettes - DecoVision</title>
+    <style>
+         body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background-color: #f0f4f7;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff85a1;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            border-radius: 0 0 30px 30px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .palette-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            padding: 2rem;
+        }
+        .palette-card {
+            background-color: #f8f9fa;
+            border-radius: 15px;
+            width: 350px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            padding: 20px;
+            transition: transform 0.3s ease;
+        }
+        .palette-card:hover {
+            transform: scale(1.05);
+        }
+        .palette-title {
+            font-size: 1.8rem;
+            color: #ff85a1;
+            margin-bottom: 1rem;
+        }
+        .colors {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            margin-bottom: 1rem;
+        }
+        .color-swatch {
+            height: 50px;
+            border-radius: 10px;
+        }
+        .back-to-room11 {
+            margin-top: 2rem;
+            text-align: center;
+        }
+        .back-to-room11 button {
+            background-color: #ff85a1;
+            color: white;
+            padding: 0.5rem 2rem;
+            border-radius: 25px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .back-to-room11 button:hover {
+            background-color: #ff85a1;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Entertainment Room Palettes</h1>
+    </header>
+    <main>
+        <div class="palette-container">
+            <!-- Cinematic Luxe -->
+            <div class="palette-card">
+                <h2 class="palette-title">Cinematic Luxe</h2>
+                <div class="colors">
+                    <div class="color-swatch" style="background-color: #1b1b1b;"></div>
+                    <div class="color-swatch" style="background-color: #d4af37;"></div>
+                    <div class="color-swatch" style="background-color: #7b7d7d;"></div>
+                    <div class="color-swatch" style="background-color: #e5e4e2;"></div>
+                    <div class="color-swatch" style="background-color: #4b4b4b;"></div>
+                    <div class="color-swatch" style="background-color: #f2f2f2;"></div>
+                    <div class="color-swatch" style="background-color: #9b111e;"></div>
+                    <div class="color-swatch" style="background-color: #3a3a3a;"></div>
+                </div>
+            </div>
+            <!-- Retro Chill -->
+            <div class="palette-card">
+                <h2 class="palette-title">Retro Chill</h2>
+                <div class="colors">
+                    <div class="color-swatch" style="background-color: #ff6f61;"></div>
+                    <div class="color-swatch" style="background-color: #6b4226;"></div>
+                    <div class="color-swatch" style="background-color: #f5deb3;"></div>
+                    <div class="color-swatch" style="background-color: #3b3b6d;"></div>
+                    <div class="color-swatch" style="background-color: #f7cac9;"></div>
+                    <div class="color-swatch" style="background-color: #92a8d1;"></div>
+                    <div class="color-swatch" style="background-color: #034f84;"></div>
+                    <div class="color-swatch" style="background-color: #d5a6bd;"></div>
+                </div>
+            </div>
+            <!-- Midnight Glow -->
+            <div class="palette-card">
+                <h2 class="palette-title">Midnight Glow</h2>
+                <div class="colors">
+                    <div class="color-swatch" style="background-color: #2c2c54;"></div>
+                    <div class="color-swatch" style="background-color: #706fd3;"></div>
+                    <div class="color-swatch" style="background-color: #474787;"></div>
+                    <div class="color-swatch" style="background-color: #1e90ff;"></div>
+                    <div class="color-swatch" style="background-color: #3c40c6;"></div>
+                    <div class="color-swatch" style="background-color: #0fbcf9;"></div>
+                    <div class="color-swatch" style="background-color: #4bcffa;"></div>
+                    <div class="color-swatch" style="background-color: #575fcf;"></div>
+                </div>
+            </div>
+            <!-- Vibrant Vibes -->
+            <div class="palette-card">
+                <h2 class="palette-title">Vibrant Vibes</h2>
+                <div class="colors">
+                    <div class="color-swatch" style="background-color: #ff4500;"></div>
+                    <div class="color-swatch" style="background-color: #ffd700;"></div>
+                    <div class="color-swatch" style="background-color: #adff2f;"></div>
+                    <div class="color-swatch" style="background-color: #00fa9a;"></div>
+                    <div class="color-swatch" style="background-color: #1e90ff;"></div>
+                    <div class="color-swatch" style="background-color: #ff69b4;"></div>
+                    <div class="color-swatch" style="background-color: #8a2be2;"></div>
+                    <div class="color-swatch" style="background-color: #ff6347;"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="back-to-room11">
+        <button onclick="window.location.href='room11.html'">Back to Room</button>
+    </div>
+</body>
+</html>

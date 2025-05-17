@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Color Palettes - DecoVision</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background-color: #fff5f7;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff85a1;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            border-radius: 0 0 30px 30px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .palette-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            padding: 2rem;
+        }
+        .palette-card {
+            background-color: #f8f9fa;
+            border-radius: 15px;
+            width: 350px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            padding: 20px;
+            transition: transform 0.3s ease;
+        }
+        .palette-card:hover {
+            transform: scale(1.05);
+        }
+        .palette-title {
+            font-size: 1.8rem;
+            color: #7d5ba6;
+            margin-bottom: 1rem;
+        }
+        .colors {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            margin-bottom: 1rem;
+        }
+        .color-swatch {
+            height: 50px;
+            border-radius: 10px;
+        }
+        .back-to-room4 {
+            margin-top: 2rem;
+            text-align: center;
+        }
+        .back-to-room4 button {
+            background-color: #ff85a1;
+            color: white;
+            padding: 0.5rem 2rem;
+            border-radius: 25px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .back-to-room4 button:hover {
+            background-color: #ff6f91;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>StudyRoom Color Palettes</h1>
+    </header>
+    <main>
+        <div class="palette-container">
+            <!-- Original Palettes -->
+            <div class="palette-card">
+                <h2 class="palette-title">Soft Pastels</h2>
+                <div class="colors">
+                    <div class="color-swatch" style="background-color: #f8e1f4;"></div>
+                    <div class="color-swatch" style="background-color: #d4e4f7;"></div>
+                    <div class="color-swatch" style="background-color: #e8f5e9;"></div>
+                    <div class="color-swatch" style="background-color: #fff4e1;"></div>
+                    <div class="color-swatch" style="background-color: #fde8d0;"></div>
+                    <div class="color-swatch" style="background-color: #f7f0e8;"></div>
+                    <div class="color-swatch" style="background-color: #dce7f3;"></div>
+                    <div class="color-swatch" style="background-color: #f6e9f8;"></div>
+                </div>
+            </div>
+            <div class="palette-card">
+                <h2 class="palette-title">Calm Neutrals</h2>
+                <div class="colors">
+                    <div class="color-swatch" style="background-color: #f5f5dc;"></div>
+                    <div class="color-swatch" style="background-color: #dcd0c0;"></div>
+                    <div class="color-swatch" style="background-color: #bfb8a5;"></div>
+                    <div class="color-swatch" style="background-color: #ebe8df;"></div>
+                    <div class="color-swatch" style="background-color: #c9c0bb;"></div>
+                    <div class="color-swatch" style="background-color: #f7f6f4;"></div>
+                    <div class="color-swatch" style="background-color: #e3dfd3;"></div>
+                    <div class="color-swatch" style="background-color: #f0e4d7;"></div>
+                </div>
+            </div>
+            <!-- Additional Palettes -->
+            <div class="palette-card">
+                <h2 class="palette-title">Serene Blues</h2>
+                <div class="colors">
+                    <div class="color-swatch" style="background-color: #e0f7fa;"></div>
+                    <div class="color-swatch" style="background-color: #b2ebf2;"></div>
+                    <div class="color-swatch" style="background-color: #80deea;"></div>
+                    <div class="color-swatch" style="background-color: #4dd0e1;"></div>
+                    <div class="color-swatch" style="background-color: #26c6da;"></div>
+                    <div class="color-swatch" style="background-color: #00bcd4;"></div>
+                    <div class="color-swatch" style="background-color: #00acc1;"></div>
+                    <div class="color-swatch" style="background-color: #0097a7;"></div>
+                </div>
+            </div>
+            <div class="palette-card">
+                <h2 class="palette-title">Earthy Greens</h2>
+                <div class="colors">
+                    <div class="color-swatch" style="background-color: #e8f5e9;"></div>
+                    <div class="color-swatch" style="background-color: #c8e6c9;"></div>
+                    <div class="color-swatch" style="background-color: #a5d6a7;"></div>
+                    <div class="color-swatch" style="background-color: #81c784;"></div>
+                    <div class="color-swatch" style="background-color: #66bb6a;"></div>
+                    <div class="color-swatch" style="background-color: #4caf50;"></div>
+                    <div class="color-swatch" style="background-color: #43a047;"></div>
+                    <div class="color-swatch" style="background-color: #388e3c;"></div>
+                </div>
+            </div>
+            <!-- More Palettes -->
+            <div class="palette-card">
+                <h2 class="palette-title">Golden Glow</h2>
+                <div class="colors">
+                    <div class="color-swatch" style="background-color: #fff8e1;"></div>
+                    <div class="color-swatch" style="background-color: #ffecb3;"></div>
+                    <div class="color-swatch" style="background-color: #ffe082;"></div>
+                    <div class="color-swatch" style="background-color: #ffd54f;"></div>
+                    <div class="color-swatch" style="background-color: #ffca28;"></div>
+                    <div class="color-swatch" style="background-color: #ffc107;"></div>
+                    <div class="color-swatch" style="background-color: #ffb300;"></div>
+                    <div class="color-swatch" style="background-color: #ffa000;"></div>
+                </div>
+            </div>
+            <div class="palette-card">
+                <h2 class="palette-title">Vibrant Sunset</h2>
+                <div class="colors">
+                    <div class="color-swatch" style="background-color: #ffe0b2;"></div>
+                    <div class="color-swatch" style="background-color: #ffcc80;"></div>
+                    <div class="color-swatch" style="background-color: #ffb74d;"></div>
+                    <div class="color-swatch" style="background-color: #ffa726;"></div>
+                    <div class="color-swatch" style="background-color: #ff9800;"></div>
+                    <div class="color-swatch" style="background-color: #fb8c00;"></div>
+                    <div class="color-swatch" style="background-color: #f57c00;"></div>
+                    <div class="color-swatch" style="background-color: #ef6c00;"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="back-to-room4">
+        <button onclick="window.location.href='room4.html'">Back to Room</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+</head>
+<body>
+    <div class="product-section">
+        <h2>Our Featured Products</h2>
+        <div class="product-container">
+            <div class="product">
+                <img src="sofa-removebg-preview.png" alt="Modern Sofa">
+                <h3>Modern Sofa</h3>
+                <p>A sleek and comfortable sofa perfect for any living room.</p>
+                <a href="viewdetails.html">
+                <button class="view-btn">View More</button>
+                </a>
+            </div>
+            <div class="product">
+                <img src="cofeetable-removebg-preview.png" alt="Rustic Coffee Table">
+                <h3>Rustic Coffee Table</h3>
+                <p>Add a touch of rustic charm to your living space with this handcrafted table.</p>
+                <a href="viewdetails1.html">
+                    <button class="view-btn">View More</button>
+                    </a>
+            </div>
+            <div class="product">
+                <img src="rug-removebg-preview.png" alt="Bohemian Rug">
+                <h3>Bohemian Rug</h3>
+                <p>Soft and vibrant, this rug will complement any boho-inspired room.</p>
+                <a href="viewdetails2.html">
+                    <button class="view-btn">View More</button>
+                    </a>
+            </div>
+            <div class="product">
+                <img src="bed.jpg" alt="Bed">
+                <h3>Bed</h3>
+                <p> A beautifully crafted king-size bed with an upholstered headboard and sturdy wooden frame, offering both comfort and style for your bedroom.</p>
+                <a href="viewdetails3.html">
+                    <button class="view-btn">View More</button>
+                    </a>
+            </div>
+            <div class="product">
+                <img src="book-removebg-preview.png" alt="Indutrial Bookshelf">
+                <h3>Indutrial Bookshelf</h3>
+                <p>This bookshelf combines modern design with industrial elements, featuring a sturdy metal frame and wooden shelves. </p>
+                <a href="viewdetails4.html">
+                    <button class="view-btn">View More</button>
+                    </a>
+            </div>
+            <div class="product">
+                <img src="cushion.jpg" alt="Decorative Cushion">
+                <h3>Decorative Cushion</h3>
+                <p>Add comfort and style to your seating area with this decorative cushion.</p>
+                <a href="viewdetails5.html">
+                    <button class="view-btn">View More</button>
+                    </a>
+            </div>
+            <div class="product">
+                <img src="mirrortray-removebg-preview.png" alt="Mirrored Tray">
+                <h3>Mirrored Tray</h3>
+                <p>A stylish and elegant mirrored tray for organizing your accessories.</p>
+                <a href="viewdetails6.html">
+                    <button class="view-btn">View More</button>
+                    </a>
+            </div>
+            <div class="product">
+                <img src="ceramic-removebg-preview.png" alt="Ceramic Plant Pot">
+                <h3>Ceramic Plant Pot</h3>
+                <p>Bring some greenery into your home with this elegant ceramic plant pot.</p>
+                <a href="viewdetails7.html">
+                    <button class="view-btn">View More</button>
+                    </a>
+            </div>
+            <div class="product">
+                <img src="vase-removebg-preview.png" alt="Glass Vase">
+                <h3>Glass Vase</h3>
+                <p>Display fresh flowers in this sleek and modern glass vase.</p>
+                <a href="viewdetails8.html">
+                    <button class="view-btn">View More</button>
+                    </a>
+            </div>
+            <div class="product">
+                <img src="holder-removebg-preview.png" alt="Candle Holder">
+                <h3>Candle Holder</h3>
+                <p>Create a cozy ambiance with this stylish and elegant candle holder.</p>
+                <a href="viewdetails9.html">
+                    <button class="view-btn">View More</button>
+                    </a>
+            </div>
+            <div class="product">
+                <img src="lamp-removebg-preview.png" alt="Floor Lamp">
+                <h3>Modern Floor Lamp</h3>
+                <p>Brighten up any room with this sleek and modern floor lamp.</p>
+                <a href="viewdetails10.html">
+                    <button class="view-btn">View More</button>
+                    </a>
+            </div>
+            <div class="product">
+                <img src="dinning.jpg" alt="Scandinavian Dining Chair">
+                <h3>Scandinavian Dining Chair</h3>
+                <p>A minimalist Scandinavian-style dining chair with a wooden frame and soft upholstered seat. Perfect for modern dining rooms, offering both comfort and style.</p>
+                <a href="viewdetails11.html">
+                    <button class="view-btn">View More</button>
+                    </a>
+            </div>
+        </div>
+    </div>
+    <div class="back-to-home">
+        <button onclick="window.location.href='navhome.html'">Back to Home</button>
+    </div>
+</body>
+</html>
+<style>
+    body {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Playful font for a cute vibe */
+}
+
+    .product-section {
+    background-color: #fff5f7; /* Soft pink background */
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.product-section h2 {
+    font-size: 2.5rem;
+    color: #ff6f91;
+    margin-bottom: 2rem;
+    
+}
+
+.product-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.product {
+    background-color: #ffd1dc; /* Light pastel pink background */
+    border-radius: 15px;
+    padding: 1.5rem;
+    width: 220px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product h3 {
+    font-size: 1.5rem;
+    color: #ff6f91;
+    margin: 1rem 0;
+}
+
+.product p {
+    font-size: 1rem;
+    color: #d63384;
+    margin-bottom: 1rem;
+}
+
+.view-btn {
+    background-color: #ff85a1;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.view-btn:hover {
+    background-color: #ff6f91; /* Darker pink on hover */
+}
+
+.product:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .product-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.back-to-home {
+    margin-top: 2rem;
+    text-align: center; /* Center the button */
+}
+
+.back-to-home button {
+    background-color: #ff85a1;
+    color: white;
+    padding: 0.5rem 2rem;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-block; /* Ensure the button is inline for centering */
+}
+
+.back-to-home button:hover {
+    background-color: #ff6f91;
+}
+
+
+
+</style>

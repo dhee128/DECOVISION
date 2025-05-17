@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room - DecoVision</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: linear-gradient(135deg, #f8e8ff, #ffe6f1);
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            color: #6c757d;
+        }
+        header {
+            background-color: #ff85a1;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            border-radius: 0 0 30px 30px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            text-shadow: 2px 2px #ffb3c6;
+        }
+        .room-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            justify-content: center;
+            margin: 2rem;
+        }
+        .room-card {
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 300px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .room-card:hover {
+            transform: translateY(-10px);
+        }
+        .room-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .room-card h3 {
+            font-size: 1.5rem;
+            color: #d63384;
+            margin: 1rem 0;
+        }
+        .room-card p {
+            font-size: 1rem;
+            color: #6c757d;
+            padding: 0 1rem;
+            margin-bottom: 1rem;
+        }
+        .room-card button {
+            background-color: #ff85a1;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-bottom: 1rem;
+        }
+        .room-card button:hover {
+            background-color: #d63384;
+        }
+        .back-to-home {
+    margin-top: 2rem;
+    text-align: center; /* Center the button */
+}
+
+.back-to-home button {
+    background-color: #ff85a1;
+    color: white;
+    padding: 0.5rem 2rem;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-block; /* Ensure the button is inline for centering */
+}
+
+.back-to-home button:hover {
+    background-color: #ff6f91;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Room Designs</h1>
+    </header>
+    <main>
+        <div class="room-container">
+            <!-- Room 1 -->
+            <div class="room-card">
+                <img src="https://i.pinimg.com/736x/cd/bb/65/cdbb657b42b8a57fbb8b2f1f66bc4b14.jpg"alt="Living Room">
+                <h3>Modern Living Room</h3>
+                <p>A sleek and stylish living room with minimalist furniture and neutral tones.</p>
+                <a href="room1.html">
+                    <button class="view-btn">View More Ideas</button>
+                    </a>
+            </div>
+            <!-- Room 2 -->
+            <div class="room-card">
+                <img src="https://i.pinimg.com/736x/5b/c6/3f/5bc63fa28b3ebbab80a8431aa3eb88ce.jpg  " alt="Bedroom">
+                <h3>Cozy Bedroom</h3>
+                <p>A warm and inviting bedroom with soft lighting and comfortable decor.</p>
+                <a href="room2.html">
+                    <button class="view-btn">View More Ideas</button>
+                    </a>            </div>
+            <!-- Room 3 -->
+            <div class="room-card">
+                <img src="https://i.pinimg.com/736x/b8/db/68/b8db687a84002c1e03f351a06789b74e.jpg" alt="Dining Room">
+                <h3>Elegant Dining Room</h3>
+                <p>An elegant dining space with classic furniture and a sophisticated vibe.</p>
+                <a href="room3.html">
+                    <button class="view-btn">View More Ideas</button>
+                    </a>              </div>
+            <!-- Room 4 -->
+            <div class="room-card">
+                <img src="https://i.pinimg.com/736x/16/29/24/162924db82fe848810f225934ed428f7.jpg" alt="Study Room">
+                <h3>Minimalist Study Room</h3>
+                <p>A clean and organized study room designed for maximum productivity.</p>
+                  <a href="room4.html">
+                    <button class="view-btn">View More Ideas</button>
+                    </a>  
+            </div>
+            <!-- Room 5 -->
+            <div class="room-card">
+                <img src="https://i.pinimg.com/736x/d5/4b/21/d54b21e18d313cd1c8f47353e4a72c44.jpg" alt="Kids Room">
+                <h3>Playful Kids Room</h3>
+                <p>A colorful and fun room filled with playful decor for children.</p>
+                <a href="room5.html">
+                    <button class="view-btn">View More Ideas</button>
+                    </a>              </div>
+            <!-- Room 6 -->
+            <div class="room-card">
+                <img src="https://i.pinimg.com/736x/5e/eb/b4/5eebb46b4b2e9c7de3bb2a2746c90a49.jpg" alt="Guest Room">
+                <h3>Chic Guest Room</h3>
+                <p>A welcoming guest room with cozy bedding and stylish accents.</p>
+                <a href="room6.html">
+                    <button class="view-btn">View More Ideas</button>
+                    </a>              </div>
+            <!-- Room 7 -->
+            <div class="room-card">
+                <img src="https://i.pinimg.com/736x/d2/7b/84/d27b84d02f8aa94c4debdd9eb555bf30.jpg" alt="Home Office">
+                <h3>Functional Home Office</h3>
+                <p>An ergonomic and stylish home office with modern furniture.</p>
+                <a href="room7.html">
+                    <button class="view-btn">View More Ideas</button>
+                    </a>              </div>
+            <!-- Room 8 -->
+            <div class="room-card">
+                <img src="https://i.pinimg.com/736x/b6/8b/1a/b68b1ab03e98eec4510cd556594b2a1b.jpg" alt="Balcony">
+                <h3>Relaxing Balcony</h3>
+                <p>A peaceful balcony setup with cozy seating and greenery.</p>
+                <a href="room8.html">
+                    <button class="view-btn">View More Ideas</button>
+                    </a>              </div>
+            <!-- Room 9 -->
+            <div class="room-card">
+                <img src="https://i.pinimg.com/736x/20/2f/34/202f345ab8b7407f9f638f6c11dc188a.jpg" alt="Bathroom">
+                <h3>Luxurious Bathroom</h3>
+                <p>A spa-like bathroom with modern fixtures and calming tones.</p>
+                <a href="room9.html">
+                    <button class="view-btn">View More Ideas</button>
+                    </a>              </div>
+            <!-- Room 10 -->
+            <div class="room-card">
+                <img src="https://i.pinimg.com/736x/fb/2d/95/fb2d957dc028dfd4a1ee74bfca4ac06a.jpg" alt="Game Room">
+                <h3>Exciting Game Room</h3>
+                <p>A vibrant game room with interactive elements and gaming decor.</p>
+                <a href="room10.html">
+                    <button class="view-btn">View More Ideas</button>
+                    </a>              </div>
+            <!-- Room 11 -->
+            <div class="room-card">
+                <img src="https://i.pinimg.com/736x/40/fe/59/40fe599d9d8a5b00aeb15e3327bb15f9.jpg" alt="Entertainment Room">
+                <h3>Entertainment Room</h3>
+                <p>A luxurious space for watching movies, with comfortable seating and a large screen.</p>
+                <a href="room11.html">
+                    <button class="view-btn">View More Ideas</button>
+                    </a>              </div>
+            <!-- Room 12 -->
+            <div class="room-card">
+                <img src="https://i.pinimg.com/736x/64/7f/20/647f203772136e0ed434bc1b4c40482d.jpg" alt="Walk-in Closet">
+                <h3>Walk-in Closet</h3>
+                <p>An organized and stylish closet with ample storage for clothing and accessories.</p>
+                <a href="room12.html">
+                    <button class="view-btn">View More Ideas</button>
+                    </a>              </div>
+        </div>
+        <div class="back-to-home">
+            <button onclick="window.location.href='navhome.html'">Back to Home</button>
+        </div>
+    </main>
+</body>
+</html>

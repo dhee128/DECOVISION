@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Walk-in Closet Palettes - DecoVision</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background-color: #f0f4f7;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff85a1;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            border-radius: 0 0 30px 30px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .palette-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            padding: 2rem;
+        }
+        .palette-card {
+            background-color: #f8f9fa;
+            border-radius: 15px;
+            width: 350px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            padding: 20px;
+            transition: transform 0.3s ease;
+        }
+        .palette-card:hover {
+            transform: scale(1.05);
+        }
+        .palette-title {
+            font-size: 1.8rem;
+            color: #ff85a1;
+            margin-bottom: 1rem;
+        }
+        .colors {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            margin-bottom: 1rem;
+        }
+        .color-swatch {
+            height: 50px;
+            border-radius: 10px;
+        }
+        .back-to-room12 {
+            margin-top: 2rem;
+            text-align: center;
+        }
+        .back-to-room12 button {
+            background-color: #ff85a1;
+            color: white;
+            padding: 0.5rem 2rem;
+            border-radius: 25px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .back-to-room12 button:hover {
+            background-color: #ff85a1;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Walk-in Closet Palettes</h1>
+    </header>
+    <main>
+        <div class="palette-container">
+            <!-- Minimal Elegance -->
+            <div class="palette-card">
+                <h2 class="palette-title">Minimal Elegance</h2>
+                <div class="colors">
+                    <div class="color-swatch" style="background-color: #f5f5f5;"></div>
+                    <div class="color-swatch" style="background-color: #dcdcdc;"></div>
+                    <div class="color-swatch" style="background-color: #a9a9a9;"></div>
+                    <div class="color-swatch" style="background-color: #696969;"></div>
+                    <div class="color-swatch" style="background-color: #ffffff;"></div>
+                    <div class="color-swatch" style="background-color: #2f4f4f;"></div>
+                    <div class="color-swatch" style="background-color: #c0c0c0;"></div>
+                    <div class="color-swatch" style="background-color: #808080;"></div>
+                </div>
+            </div>
+            <!-- Chic Neutrals -->
+            <div class="palette-card">
+                <h2 class="palette-title">Chic Neutrals</h2>
+                <div class="colors">
+                    <div class="color-swatch" style="background-color: #e6d5b8;"></div>
+                    <div class="color-swatch" style="background-color: #bca287;"></div>
+                    <div class="color-swatch" style="background-color: #8c6e63;"></div>
+                    <div class="color-swatch" style="background-color: #5c4f3b;"></div>
+                    <div class="color-swatch" style="background-color: #f8f4f1;"></div>
+                    <div class="color-swatch" style="background-color: #d3cbb8;"></div>
+                    <div class="color-swatch" style="background-color: #a89f91;"></div>
+                    <div class="color-swatch" style="background-color: #7e6e5e;"></div>
+                </div>
+            </div>
+            <!-- Glamorous Glow -->
+            <div class="palette-card">
+                <h2 class="palette-title">Glamorous Glow</h2>
+                <div class="colors">
+                    <div class="color-swatch" style="background-color: #ffefd5;"></div>
+                    <div class="color-swatch" style="background-color: #f0e68c;"></div>
+                    <div class="color-swatch" style="background-color: #ffd700;"></div>
+                    <div class="color-swatch" style="background-color: #daa520;"></div>
+                    <div class="color-swatch" style="background-color: #fff8dc;"></div>
+                    <div class="color-swatch" style="background-color: #faebd7;"></div>
+                    <div class="color-swatch" style="background-color: #f5deb3;"></div>
+                    <div class="color-swatch" style="background-color: #deb887;"></div>
+                </div>
+            </div>
+            <!-- Vibrant Pastels -->
+            <div class="palette-card">
+                <h2 class="palette-title">Vibrant Pastels</h2>
+                <div class="colors">
+                    <div class="color-swatch" style="background-color: #ffe4e1;"></div>
+                    <div class="color-swatch" style="background-color: #ffdab9;"></div>
+                    <div class="color-swatch" style="background-color: #e0ffff;"></div>
+                    <div class="color-swatch" style="background-color: #f0f8ff;"></div>
+                    <div class="color-swatch" style="background-color: #fafad2;"></div>
+                    <div class="color-swatch" style="background-color: #e6e6fa;"></div>
+                    <div class="color-swatch" style="background-color: #f5f5dc;"></div>
+                    <div class="color-swatch" style="background-color: #ffe4b5;"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="back-to-room12">
+        <button onclick="window.location.href='room12.html'">Back to Room</button>
+    </div>
+</body>
+</html>

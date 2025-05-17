@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technology Ideas</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: linear-gradient(135deg, #f8e8ff, #ffe6f1);
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            color: #6c757d;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff85a1;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            border-radius: 0 0 30px 30px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            text-shadow: 2px 2px #ffb3c6;
+        }
+        .ideas-container {
+            margin: 2rem auto;
+            max-width: 1200px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            justify-content: center;
+        }
+        .idea-card {
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 300px;
+            text-align: center;
+            transition: transform 0.3s ease;
+            padding: 1rem;
+        }
+        .idea-card:hover {
+            transform: translateY(-10px);
+        }
+        .idea-card img {
+            width: 100%;
+            border-radius: 15px 15px 0 0;
+            height: 200px;
+            object-fit: cover;
+        }
+        .idea-card h3 {
+            font-size: 1.5rem;
+            color: #d63384;
+            margin: 1rem 0;
+        }
+        .idea-card p {
+            font-size: 1rem;
+            color: #6c757d;
+            margin: 0.5rem 0;
+        }
+        .idea-card button {
+            background-color: #ff85a1;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-top: 1rem;
+        }
+        .idea-card button:hover {
+            background-color: #d63384;
+        }
+        .back-to-room2 {
+            margin-top: 2rem;
+            text-align: center; /* Center the button */
+        }
+        .back-to-room2 button {
+            background-color: #ff85a1;
+            color: white;
+            padding: 0.5rem 2rem;
+            border-radius: 25px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .back-to-room2 button:hover {
+            background-color: #ff6f91;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Technology Ideas</h1>
+    </header>
+    <main>
+        <div class="ideas-container">
+            <!-- Sleek Sofa Cards -->
+            <div class="idea-card">
+                <img src="https://i.pinimg.com/736x/a0/c4/6b/a0c46b26e05339c96b442625288dbfd5.jpg" alt="Sleek Sofa">
+                <h3>Smart Lighting </h3>
+                <p> Stream content easily, voice control for hands-free operation, and smart home integration. </p>
+            </div>
+            <div class="idea-card">
+                <img src="https://i.pinimg.com/736x/93/0b/ea/930bea1b78d521604af42548617c0f39.jpg" alt="Sleek Sofa">
+                <h3>Smart Beds </h3>
+                <p>Hands-free control of your home, entertainment, and information at your fingertips. </p>
+            </div>
+            <div class="idea-card">
+                <img src="https://i.pinimg.com/736x/64/f0/cd/64f0cd8d242e0a4d88f3fd3b16d1465b.jpg" alt="Sleek Sofa">
+                <h3>Voice-Controlled Assistants </h3>
+                <p> Energy efficiency, comfort, and cost savings on heating and cooling.</p>
+            </div>
+            <div class="idea-card">
+                <img src="https://i.pinimg.com/736x/5b/3d/6b/5b3d6bb887840eb7f8116e9c5642a446.jpg" alt="Sleek Sofa">
+                <h3>Smart Plugs</h3>
+                <p>Turn devices on or off remotely, schedule usage, and automate your living room for convenience. </p>
+            </div>
+            <div class="idea-card">
+                <img src="https://i.pinimg.com/736x/68/04/5c/68045c76d777623a2b7f5389476f104e.jpg" alt="Sleek Sofa">
+                <h3>Smart Curtains or Blinds </h3>
+                <p>Privacy, light control, and energy savings by adjusting the amount of sunlight entering the room.  </p>
+            </div>
+       
+            <div class="idea-card">
+                <img src="https://i.pinimg.com/736x/3a/bf/5d/3abf5de9e4006e334137d1b56a8b66e3.jpg" alt="Sleek Sofa">
+                <h3>  Wireless Charging Stations</h3>
+                <p>Convenient and clutter-free charging without the need for cables.</p>
+            </div>
+        </div>
+    </main>
+    <div class="back-to-room2">
+        <button onclick="window.location.href='room2.html'">Back to Room</button>
+    </div>
+</body>
+</html>

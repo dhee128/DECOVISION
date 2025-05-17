@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Office Room Color Palettes - DecoVision</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background-color: #f0f4f7;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff85a1;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            border-radius: 0 0 30px 30px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .palette-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            padding: 2rem;
+        }
+        .palette-card {
+            background-color: #f8f9fa;
+            border-radius: 15px;
+            width: 350px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            padding: 20px;
+            transition: transform 0.3s ease;
+        }
+        .palette-card:hover {
+            transform: scale(1.05);
+        }
+        .palette-title {
+            font-size: 1.8rem;
+            color: #7d5ba6;
+            margin-bottom: 1rem;
+        }
+        .colors {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            margin-bottom: 1rem;
+        }
+        .color-swatch {
+            height: 50px;
+            border-radius: 10px;
+        }
+        .back-to-room7 {
+            margin-top: 2rem;
+            text-align: center;
+        }
+        .back-to-room7 button {
+            background-color: #ff85a1;
+            color: white;
+            padding: 0.5rem 2rem;
+            border-radius: 25px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .back-to-room7 button:hover {
+            background-color: #ff6f91;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Office Room Color Palettes</h1>
+    </header>
+    <main>
+        <div class="palette-container">
+            <!-- Professional Neutrals -->
+            <div class="palette-card">
+                <h2 class="palette-title">Professional Neutrals</h2>
+                <div class="colors">
+                    <div class="color-swatch" style="background-color: #d1d5db;"></div>
+                    <div class="color-swatch" style="background-color: #b8c0cc;"></div>
+                    <div class="color-swatch" style="background-color: #a1a9b3;"></div>
+                    <div class="color-swatch" style="background-color: #e4e8ed;"></div>
+                    <div class="color-swatch" style="background-color: #c5cbd3;"></div>
+                    <div class="color-swatch" style="background-color: #d0d6e0;"></div>
+                    <div class="color-swatch" style="background-color: #d9e2e7;"></div>
+                    <div class="color-swatch" style="background-color: #f0f4f7;"></div>
+                </div>
+            </div>
+            <!-- Warm Tones -->
+            <div class="palette-card">
+                <h2 class="palette-title">Warm Tones</h2>
+                <div class="colors">
+                    <div class="color-swatch" style="background-color: #dcb68a;"></div>
+                    <div class="color-swatch" style="background-color: #c8a36c;"></div>
+                    <div class="color-swatch" style="background-color: #d6a65c;"></div>
+                    <div class="color-swatch" style="background-color: #e1c185;"></div>
+                    <div class="color-swatch" style="background-color: #c38e56;"></div>
+                    <div class="color-swatch" style="background-color: #e3c98f;"></div>
+                    <div class="color-swatch" style="background-color: #f1d59c;"></div>
+                    <div class="color-swatch" style="background-color: #d8b57d;"></div>
+                </div>
+            </div>
+            <!-- Calming Blues -->
+            <div class="palette-card">
+                <h2 class="palette-title">Calming Blues</h2>
+                <div class="colors">
+                    <div class="color-swatch" style="background-color: #a1c6ea;"></div>
+                    <div class="color-swatch" style="background-color: #7baedc;"></div>
+                    <div class="color-swatch" style="background-color: #6a9ab2;"></div>
+                    <div class="color-swatch" style="background-color: #9cc0d6;"></div>
+                    <div class="color-swatch" style="background-color: #c7d9f2;"></div>
+                    <div class="color-swatch" style="background-color: #b2c9e3;"></div>
+                    <div class="color-swatch" style="background-color: #b9c9f3;"></div>
+                    <div class="color-swatch" style="background-color: #4a90e2;"></div>
+                </div>
+            </div>
+            <!-- Modern Grays -->
+            <div class="palette-card">
+                <h2 class="palette-title">Modern Grays</h2>
+                <div class="colors">
+                    <div class="color-swatch" style="background-color: #b0b0b0;"></div>
+                    <div class="color-swatch" style="background-color: #8a8a8a;"></div>
+                    <div class="color-swatch" style="background-color: #a7a7a7;"></div>
+                    <div class="color-swatch" style="background-color: #d1d1d1;"></div>
+                    <div class="color-swatch" style="background-color: #c0c0c0;"></div>
+                    <div class="color-swatch" style="background-color: #d9d9d9;"></div>
+                    <div class="color-swatch" style="background-color: #e4e4e4;"></div>
+                    <div class="color-swatch" style="background-color: #f0f0f0;"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="back-to-room7">
+        <button onclick="window.location.href='room7.html'">Back to Room</button>
+    </div>
+</body>
+</html>

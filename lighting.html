@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lighting Ideas</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: linear-gradient(135deg, #f8e8ff, #ffe6f1);
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            color: #6c757d;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff85a1;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            border-radius: 0 0 30px 30px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            text-shadow: 2px 2px #ffb3c6;
+        }
+        .ideas-container {
+            margin: 2rem auto;
+            max-width: 1200px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            justify-content: center;
+        }
+        .idea-card {
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 300px;
+            text-align: center;
+            transition: transform 0.3s ease;
+            padding: 1rem;
+        }
+        .idea-card:hover {
+            transform: translateY(-10px);
+        }
+        .idea-card img {
+            width: 100%;
+            border-radius: 15px 15px 0 0;
+            height: 200px;
+            object-fit: cover;
+        }
+        .idea-card h3 {
+            font-size: 1.5rem;
+            color: #d63384;
+            margin: 1rem 0;
+        }
+        .idea-card p {
+            font-size: 1rem;
+            color: #6c757d;
+            margin: 0.5rem 0;
+        }
+        .idea-card button {
+            background-color: #ff85a1;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-top: 1rem;
+        }
+        .idea-card button:hover {
+            background-color: #d63384;
+        }
+        .back-to-room1 {
+            margin-top: 2rem;
+            text-align: center; /* Center the button */
+        }
+        .back-to-room1 button {
+            background-color: #ff85a1;
+            color: white;
+            padding: 0.5rem 2rem;
+            border-radius: 25px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .back-to-room1 button:hover {
+            background-color: #ff6f91;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lighting Ideas</h1>
+    </header>
+    <main>
+        <div class="ideas-container">
+            <!-- Sleek Sofa Cards -->
+            <div class="idea-card">
+                <img src="https://i.pinimg.com/736x/f9/89/d0/f989d0446cbb804a2abca6dece4b6626.jpg" alt="Sleek Sofa">
+                <h3>Chandeliers</h3>
+                <p>Choose a modern, minimalist design for a contemporary feel or a more ornate, traditional style for a classic look. A chandelier with adjustable dimming options allows you to set the perfect mood.</p>
+            </div>
+            <div class="idea-card">
+                <img src="https://i.pinimg.com/736x/86/2c/92/862c9272ed071203dd06df58b28d32bc.jpg" alt="Sleek Sofa">
+                <h3>Floor Lamps</h3>
+                <p>Floor lamps are perfect for adding both style and extra lighting to your living room. Opt for a tall, sleek design for a modern touch, or choose a vintage-style tripod lamp for a more eclectic vibe.</p>
+            </div>
+            <div class="idea-card">
+                <img src="https://i.pinimg.com/736x/38/cf/6c/38cf6c6dbb881befcde5def8a8723c84.jpg" alt="Sleek Sofa">
+                <h3>Table Lamps</h3>
+                <p>Table lamps can add warmth and intimacy to the living room. Place them on side tables next to the sofa or near a reading nook.</p>
+            </div>
+            <div class="idea-card">
+                <img src="https://i.pinimg.com/736x/ef/59/02/ef5902f27522f3eb47ae395aff6908e5.jpg" alt="Sleek Sofa">
+                <h3>Recessed Lighting</h3>
+                <p>Recessed lighting, also known as can lights, can be installed in the ceiling to provide a clean, unobtrusive light source. </p>
+            </div>
+            <div class="idea-card">
+                <img src="https://i.pinimg.com/736x/c6/76/a7/c676a71ba24f5bd0f70af512b1d1d47a.jpg" alt="Sleek Sofa">
+                <h3>Wall Sconces</h3>
+                <p>Wall sconces are an elegant option for adding soft, ambient lighting to the walls. They can be placed on either side of a sofa or near a doorway to create a welcoming atmosphere. </p>
+            </div>
+       
+            <div class="idea-card">
+                <img src="https://i.pinimg.com/736x/6e/d9/d6/6ed9d6b44a72a52af5cdb4589ef829ac.jpg" alt="Sleek Sofa">
+                <h3> LED Strip Lights</h3>
+                <p>LED strip lights can be installed along the edges of the ceiling or behind furniture to create a subtle, ambient glow.</p>
+            </div>
+        </div>
+    </main>
+    <div class="back-to-room1">
+        <button onclick="window.location.href='room1.html'">Back to Room</button>
+    </div>
+</body>
+</html>

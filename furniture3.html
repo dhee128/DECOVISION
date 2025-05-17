@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture Ideas</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: linear-gradient(135deg, #f8e8ff, #ffe6f1);
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            color: #6c757d;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff85a1;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            border-radius: 0 0 30px 30px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            text-shadow: 2px 2px #ffb3c6;
+        }
+        .ideas-container {
+            margin: 2rem auto;
+            max-width: 1200px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            justify-content: center;
+        }
+        .idea-card {
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 300px;
+            text-align: center;
+            transition: transform 0.3s ease;
+            padding: 1rem;
+        }
+        .idea-card:hover {
+            transform: translateY(-10px);
+        }
+        .idea-card img {
+            width: 100%;
+            border-radius: 15px 15px 0 0;
+            height: 200px;
+            object-fit: cover;
+        }
+        .idea-card h3 {
+            font-size: 1.5rem;
+            color: #d63384;
+            margin: 1rem 0;
+        }
+        .idea-card p {
+            font-size: 1rem;
+            color: #6c757d;
+            margin: 0.5rem 0;
+        }
+        .idea-card button {
+            background-color: #ff85a1;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-top: 1rem;
+        }
+        .idea-card button:hover {
+            background-color: #d63384;
+        }
+        .back-to-room4 {
+            margin-top: 2rem;
+            text-align: center; /* Center the button */
+        }
+        .back-to-room4 button {
+            background-color: #ff85a1;
+            color: white;
+            padding: 0.5rem 2rem;
+            border-radius: 25px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .back-to-room4 button:hover {
+            background-color: #ff6f91;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Furniture Ideas</h1>
+    </header>
+    <main>
+        <div class="ideas-container">
+            <!-- Sleek Sofa Cards -->
+            <div class="idea-card">
+                <img src="https://i.pinimg.com/736x/a2/5f/0c/a25f0cf7be12f2149d1351b3568a9ab3.jpg" alt="Sleek Sofa">
+                <h3> Desk</h3>
+                <p>A low-profile platform bed with a sleek design provides a modern and minimalist look. It works well with soft, neutral bedding and creates a serene vibe.</p>
+            </div>
+            <div class="idea-card">
+                <img src="https://i.pinimg.com/736x/b6/17/a0/b617a0661c2cad1dd34c98857aebfbf5.jpg" alt="Sleek Sofa">
+                <h3>  Chair</h3>
+                <p>A pair of simple wooden nightstands with clean lines can complement any bedroom style. Choose warm wood tones like oak or walnut for a cozy, natural look.</p>
+            </div>
+            <div class="idea-card">
+                <img src="https://i.pinimg.com/736x/95/8e/54/958e540a01120466d31c50d80170e374.jpg" alt="Sleek Sofa">
+                <h3>Shelving </h3>
+                <p>A freestanding wardrobe with a combination of hanging space and shelves is ideal for rooms without a built-in closet.</p>
+            </div>
+            <div class="idea-card">
+                <img src="https://i.pinimg.com/736x/21/79/55/21795533ebdf7b3c3e35f0bebaf4f7cb.jpg" alt="Sleek Sofa">
+                <h3>   Storage </h3>
+                <p>A soft ottoman at the foot of the bed can provide extra seating or serve as a place to rest your feet after a long day.</p>
+            </div>
+            <div class="idea-card">
+                <img src="https://i.pinimg.com/736x/30/16/5f/30165fd01ee653fa63b1beb1ea16517f.jpg" alt="Sleek Sofa">
+                <h3> Rug   </h3>
+                <p>A floating vanity with a mirror mounted above it is a space-saving option for smaller bedrooms.</p>
+            </div>
+       
+            <div class="idea-card">
+                <img src="https://i.pinimg.com/736x/f1/48/3d/f1483ded4caaa419434b391ba9edbca1.jpg" alt="Sleek Sofa">
+                <h3>  Accessories  </h3>
+                <p>Place a small side table next to an armchair or lounge chair for added convenience. These tables can hold a cup of coffee, books, or decorative items.</p>
+            </div>
+        </div>
+    </main>
+    <div class="back-to-room4">
+        <button onclick="window.location.href='room4.html'">Back to Room</button>
+    </div>
+</body>
+</html>
